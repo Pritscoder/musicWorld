@@ -1,0 +1,326 @@
+.light{
+    --background:rgb(237,237,237);
+    --textcolor:black;
+}
+.dark{
+    --background:rgba(0,0,0,0.6);
+    --textcolor:white;
+}
+body{
+    background-color: var(--background);
+}
+.nav-item a,.navbar-brand{
+color: var(--textcolor);
+font-family: 'Nuosu SIL', serif;
+}
+.leftnav{
+    height: 100vh;
+    background-color:var(--background);
+    position: fixed;
+}
+.leftnav a{
+    text-decoration: none;
+    font-family: 'Nuosu SIL', serif;
+   
+}
+.navbar{
+    background-color: var(--background);
+}
+
+.rightnav{
+    height: 100vh;    
+    margin-left: 13rem;
+}
+
+.rightimg, .rightimg img{
+    width: 100%;
+    height: 22rem;
+    background-size: cover;
+}
+.userimg img{
+    max-width: 6rem;
+    max-height: 6rem;
+    min-width: 6rem;
+    min-height: 6rem;
+    border-radius: 50%;
+}
+.userimg a,.uname{
+    font-weight: bold;
+    color: var(--textcolor);
+}
+.navitem li{
+list-style: none;
+cursor: pointer;
+color:var(--textcolor);
+padding: 1rem;
+}
+.navitem li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Nuosu SIL', serif;
+    color:var(--textcolor);
+}
+.log{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+}
+.login{
+    margin-left: 25rem;
+}
+.cuser a{
+text-decoration: none;
+}
+.sogImg{
+    position:relative;
+    max-width: 11rem;
+    min-width: 11rem;
+    max-height: 9rem;
+    min-height: 9rem;
+}
+.playicon{
+    position: absolute;
+    left:40%;
+    top:20%;
+    font-size: 3rem;
+    display: none;    
+}
+.xyz:hover .playicon{
+display: block;
+}
+.xyz,.xyz h6{
+    background-color: rgba(0,0,0,0);
+    color: var(--textcolor);
+}
+.navitems{
+    width:100%;
+    height:3.5rem;     
+}
+.navitems i{
+padding-right: 1rem;
+}
+.navitems li:hover{
+    background-color: grey;    
+}
+.sar li{
+ list-style: none;
+cursor: pointer;
+}
+.sar{
+    background-color: rgba(0,0,0,0.3);
+}
+.search form input{
+    position: relative;
+}
+.search form a{
+    position: absolute;
+    left: 78%;
+}
+.bar{
+    font-size: 2rem;
+    color: var(--textcolor);
+    margin-left: 0.5rem;
+    display: none;
+}
+
+.play{ 
+    height: 22rem;
+    background-color: var(--background);
+    
+}
+.playleft1{    
+    height: 20rem;
+}
+.playleft2{    
+    height: 20rem;
+}
+.playImg img{
+    max-width: 22rem;
+    min-width: 22rem;
+    max-height:15rem;
+    min-height: 15rem;
+   
+}
+.playdetail{   
+    height: 8rem;
+    padding-top: 0rem;
+    color: var(--textcolor);
+}
+.playbox{
+height: 7rem;
+}
+.range{
+    width: 100%;
+}
+.playicons{
+    display: flex;
+    justify-content:flex-start;
+    gap:2rem;   
+    
+}
+.icon{
+    font-size: 2rem;
+    color: var(--textcolor);
+}
+.songSuggestion{
+    margin-left: 1.2rem;
+    height: 25rem;
+    width: 95vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.songSuggestion .card{
+    background-color: var(--background);
+    color: var(--textcolor);
+    text-transform: capitalize;
+
+}
+
+.sugimg{
+    max-width: 7rem;
+    min-width: 7rem;
+    max-height: 4rem;
+    min-height: 4rem;
+}
+.sugicon{
+    font-size: 1.5rem;
+}
+.sugbox{
+    display: flex;
+    justify-content:space-between;    
+}
+.bor{
+    border:2px solid blue;
+}
+.icons{
+    display: flex;
+    justify-content:space-between;
+}
+.specialicon{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.8rem;
+    font-size: 1.7rem;
+    color: var(--textcolor);
+}
+.download a{
+    color: var(--textcolor);
+}
+.download{
+    margin-top: 0.3rem;
+}
+.aimg{
+    background-color: rgba(0,0,0,0);
+    color: var(--textcolor);
+    text-transform: capitalize;
+    border: none;
+}
+.artimg img{
+    max-width: 8rem;
+    max-height: 8rem;
+    min-width: 8rem;
+    min-height: 8rem;
+    border-radius:50%;
+    cursor: pointer;
+    border: 2px solid darkolivegreen;
+}
+
+.bio{
+    height: 8rem;
+    overflow-y:auto;
+}
+
+.time{
+    display: flex;
+    justify-content:space-between;
+    color: var(--textcolor);
+}
+
+.playlistPic i{
+font-size: 12rem;
+margin-left: 4rem;
+cursor: pointer;
+color: var(--textcolor);
+}
+.playlistPic {
+    border: 2px dashed black;
+    border-radius: 2rem;
+    height: 13rem;
+}
+.playlistDetail{
+    color: var(--textcolor);
+}
+.playimg{
+    max-width: 11rem;
+    min-width: 11rem;
+    max-height: 8rem;
+    min-height: 8rem;
+}
+.playls{
+    width: 14rem;    
+}
+.playls input{
+background-color: rgba(0,0,0,0);
+font-size: 1.3rem;
+color: var(--textcolor);
+outline: none;
+}
+.sel{
+    margin-top: 0.1rem;
+}
+
+@media(max-width:460px){ 
+    .leftnav{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }  
+    .navitem li{
+        padding-top: 0.5rem;      
+        list-style: none;
+        cursor: pointer;
+        color:var(--textcolor);        
+        }
+        .navitem li a{
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-family: 'Nuosu SIL', serif;
+            color:var(--textcolor);
+                  
+        }
+        .sogImg{           
+            max-width: 18rem;
+            min-width: 18rem;           
+        }
+        .leftnav{
+            height: 100vh; 
+            position: absolute; 
+            z-index: 1;
+            width: 60%;
+        }
+        .rightnav{
+            height: 100vh; 
+            position: relative; 
+            margin-left: 0rem;  
+        }
+        .login{
+            margin-left: 0rem;
+        }
+        .search form a{
+            left:78%;
+        }
+        .bar{
+            display: block;
+            z-index:2;
+        }
+        .userimg img{
+            margin-top: 3rem;
+        }
+}
+
+
+
