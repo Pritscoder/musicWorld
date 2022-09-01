@@ -16,6 +16,7 @@ import Search from './component/Seach';
 // import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
 const App = () => {
+  console.log("kk");
   return (
     <>
     <Routes>
